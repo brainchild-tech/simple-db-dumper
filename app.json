@@ -1,0 +1,8 @@
+{
+    "name": "DB DUMPER",
+    "scripts": {
+        "dokku": {
+            "postdeploy": "rails db:migrate"
+        }
+    }
+}
